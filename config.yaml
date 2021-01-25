@@ -1,10 +1,9 @@
 {
-  behaviour: empty_response,
+  behaviour: configurable_response,
   emulationport: "9000",
-  close_connection: {
-    delay_millisec: 2000,
-  },
-  empty_response: {
-      delay_millisec: 500,
+  configurable_response: {
+      delay_before_millisec: 100,
+      response_file: "response_sample2.txt",
+      delay_after_millisec: 200,
   }
 }
