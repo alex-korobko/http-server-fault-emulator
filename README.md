@@ -25,7 +25,7 @@ A client uses the utility instead of real server could experience various issues
   }
   ```
    
-  starts server listening to connections on port `9000`. The active behaviour is `configurable_response` that is configured after accepting a connection the service to wait for 2 sec and close the connection.
+  starts server listening to connections on port `9000`. The active behaviour is `configurable_response` that is configured after accepting a connection to wait for 2 sec and close the connection.
   
  
  The following configuration
@@ -46,7 +46,7 @@ A client uses the utility instead of real server could experience various issues
  As it was mentioned, the config could be changed, for example, modifying the delays or using another file and the changes will be applied to the next request to the service. The file is not cached, so any modification in the file also applied in the next request to the service.
  
  
- ##TODO 
+ ## TODO 
  * to update the response that was loaded from file replacing by template some values, like current date and time
  * to support different behaviours\behaviour params for different paths
  * to log what exactly happens for the request
