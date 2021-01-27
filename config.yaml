@@ -3,7 +3,7 @@
   emulationport: "9000",
   configurable_response: {
       delay_before_millisec: 100,
-      response_file: "response_sample2.txt",
+      response_file: "response_sample1.txt",
       delay_after_millisec: 200,
   }
 }
